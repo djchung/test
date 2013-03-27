@@ -1,0 +1,502 @@
+Ttest
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/test.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Info.plist test/test-Info.plist
+cProcessPCH /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-fpcmwqqkexztogfkeglltdhjjila/test-Prefix.pch.pth test/test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-enxiqujknjgvdxcwpukfejqtikli/test-Prefix.pch.pth test/test-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/ViewController.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test normal armv7
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/ViewController.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test normal armv7s
+cCreateUniversalBinary /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test normal "armv7 armv7s"
+cGenerateDSYMFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app.dSYM /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test
+cCopyStringsFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default.png test/Default.png
+cCopyPNGFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default@2x.png test/Default@2x.png
+cCopyPNGFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default-568h@2x.png test/Default-568h@2x.png
+cCompileXIB /Users/djchung/Dropbox/BlueKey_LLC/test/test/en.lproj/ViewController.xib
+cProcessProductPackaging "/Users/djchung/Library/MobileDevice/Provisioning Profiles/4371239E-7FDF-4C17-97B7-7E1E2E2501E7.mobileprovision" /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/djchung/Library/MobileDevice/Provisioning Profiles/4371239E-7FDF-4C17-97B7-7E1E2E2501E7.mobileprovision" /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/embedded.mobileprovision
+cTouch /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test.xcent
+cCodeSign /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app
+cValidate /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c000000005102D2FD0000000000000110
+t1359139581
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c00000000510C77A900000000000001A7
+t1359771561
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c00000000510C77A900000000000001E5
+t1359771561
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510C77AD0000000000322700
+t1359771565
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000510C77AF000000000062AD10
+t1359771567
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000510C77AE00000000000015F7
+t1359771566
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000510C77B00000000000000E8D
+t1359771568
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510C77B500000000011BCDF0
+t1359771573
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c00000000510C77BA0000000000001B73
+t1359771578
+s7027
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app.dSYM
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default.png
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default@2x.png
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Info.plist
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/PkgInfo
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/ResourceRules.plist
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/en.lproj/ViewController.nib
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test.LinkFileList
+c0000000051528CF70000000000000164
+t1364364535
+s356
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/ViewController.o
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test.LinkFileList
+c0000000051528CF70000000000000167
+t1364364535
+s359
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test.xcent
+t2
+s0
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m
+c00000000515284C800000000000008F6
+t1364362440
+s2294
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/test/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/test/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/test/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m
+c00000000515284FB000000000000021B
+t1364362491
+s539
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/test/en.lproj/InfoPlist.strings
+c00000000515284C8000000000000002D
+t1364362440
+s45
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/test/en.lproj/ViewController.xib
+c00000000515284C80000000000001782
+t1364362440
+s6018
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m
+c00000000515284C80000000000000147
+t1364362440
+s327
+
+N/Users/djchung/Dropbox/BlueKey_LLC/test/test/test-Prefix.pch
+c00000000515284C80000000000000137
+t1364362440
+s311
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/djchung/Library/MobileDevice/Provisioning Profiles/4371239E-7FDF-4C17-97B7-7E1E2E2501E7.mobileprovision
+c000000005152797000000000000024BD
+t1364359536
+s9405
+
+N/var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-enxiqujknjgvdxcwpukfejqtikli/test-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-fpcmwqqkexztogfkeglltdhjjila/test-Prefix.pch.pth
+t2
+s0
+
+Ntest/test-Info.plist
+c00000000515284C80000000000000493
+t1364362440
+s1171
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies54020277c402b741^d28a7b77c402b741^---0#1#0#--18"Check dependencies36"4436BBE0-1320-4DA3-B8D9-ACB4779AEE6E-
+
+CCodeSign /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app
+s386057364.790624
+e386057367.188708
+r1
+xCodeSign
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"CodeSign build/Release-iphoneos/test.app8386ca94c402b741^5a633097c402b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/0000000000000000^978"CodeSign build/Release-iphoneos/test.app    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/codesign --force --sign 1c223e221c0a2e9e8d023719815bd630cfbb1850 --resource-rules=/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/ResourceRules.plist --entitlements /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test.xcent /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app36"4E366D9F-6168-4265-AAD8-A8B0DB1F2C6E-
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386057345.029583
+e386057346.143014
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o
+x/Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m8bc50781c402b741^65a62482c402b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m0000000000000000^3443"CompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o test/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7 -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-fpcmwqqkexztogfkeglltdhjjila/test-Prefix.pch -MMD -MT dependencies -MF /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.dia -c /Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/AppDelegate.o36"8E5103EE-0262-4435-9ED7-C26D155CB2D4-
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/ViewController.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386057346.144499
+e386057346.235476
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/armv7/ViewController.o
+x/Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m4e2b2582c402b741^096e3c82c402b741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m0000000000000000^3461"CompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/ViewController.o test/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7 -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-fpcmwqqkexztogfkeglltdhjjila/test-Prefix.pch -MMD -MT dependencies -MF /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/ViewController.dia -c /Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/ViewController.o36"11FFFEB5-6A74-4209-ABF3-4C8AC4ABAF4D-
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386057345.029012
+e386057346.126031
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o
+x/Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m37a60781c402b741^5f432082c402b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m0000000000000000^3401"CompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7 -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-fpcmwqqkexztogfkeglltdhjjila/test-Prefix.pch -MMD -MT dependencies -MF /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.dia -c /Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/main.o36"B25D80E1-9449-43AF-B9CE-AB49ECDCEF7F-
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386057349.088691
+e386057351.894871
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.ma0e01685c402b741^d427e587c402b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m0000000000000000^3450"CompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o test/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7s -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-enxiqujknjgvdxcwpukfejqtikli/test-Prefix.pch -MMD -MT dependencies -MF /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/djchung/Dropbox/BlueKey_LLC/test/test/AppDelegate.m -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/AppDelegate.o36"0F91ABF5-210B-4A97-BCC3-E6A7D0D1FEAD-
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/ViewController.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386057349.089569
+e386057351.418847
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/ViewController.o
+x/Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m37171785c402b741^5a496b87c402b741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m0000000000000000^3468"CompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/ViewController.o test/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7s -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-enxiqujknjgvdxcwpukfejqtikli/test-Prefix.pch -MMD -MT dependencies -MF /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/ViewController.dia -c /Users/djchung/Dropbox/BlueKey_LLC/test/test/ViewController.m -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/ViewController.o36"234A9864-CD1B-4AA4-B7FA-D96BD2EB8D74-
+
+CCompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o /Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386057346.239303
+e386057346.280596
+r1
+xCompileC
+xbuild/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o
+x/Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m5b793d82c402b741^cff74782c402b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m0000000000000000^3408"CompileC build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7s -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-enxiqujknjgvdxcwpukfejqtikli/test-Prefix.pch -MMD -MT dependencies -MF /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.dia -c /Users/djchung/Dropbox/BlueKey_LLC/test/test/main.m -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/main.o36"CB12CEFC-C8F2-48CD-81A2-0239FB21DF09-
+
+CCompileXIB /Users/djchung/Dropbox/BlueKey_LLC/test/test/en.lproj/ViewController.xib
+s386057353.917487
+e386057364.051085
+r1
+xCompileXIB
+x/Users/djchung/Dropbox/BlueKey_LLC/test/test/en.lproj/ViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compiling /Users/djchung/Dropbox/BlueKey_LLC/test/test/en.lproj/ViewController.xib5644ed89c402b741^89250d94c402b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/en.lproj/ViewController.xib0000000000000000^1033"CompileXIB test/en.lproj/ViewController.xib    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/en.lproj/ViewController.nib /Users/djchung/Dropbox/BlueKey_LLC/test/test/en.lproj/ViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"311A001E-284D-4B77-94A5-0B264464ADFF-
+
+CCopyPNGFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default-568h@2x.png test/Default-568h@2x.png
+s386057353.873292
+e386057354.065372
+r1
+xCopyPNGFile
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default-568h@2x.png
+xtest/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Release-iphoneos/test.app/Default-568h@2x.png test/Default-568h@2x.png42afdf89c402b741^f1bc108ac402b741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/Default-568h@2x.png0000000000000000^799"CopyPNGFile "build/Release-iphoneos/test.app/Default-568h@2x.png" "test/Default-568h@2x.png"    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/djchung/Dropbox/BlueKey_LLC/test/test/Default-568h@2x.png" "/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default-568h@2x.png"36"48E5326D-7D1B-4EA6-82D0-AB5CCF59D34C-
+
+CCopyPNGFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default.png test/Default.png
+s386057353.310256
+e386057353.872096
+r1
+xCopyPNGFile
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default.png
+xtest/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CopyPNGFile build/Release-iphoneos/test.app/Default.png test/Default.pngf0874f89c402b741^795ddf89c402b741^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/Default.png0000000000000000^759"CopyPNGFile build/Release-iphoneos/test.app/Default.png test/Default.png    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/djchung/Dropbox/BlueKey_LLC/test/test/Default.png /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default.png36"A9DE8A96-482A-4242-B474-E848AC1D6CF9-
+
+CCopyPNGFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default@2x.png test/Default@2x.png
+s386057353.495691
+e386057353.904247
+r1
+xCopyPNGFile
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default@2x.png
+xtest/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"CopyPNGFile build/Release-iphoneos/test.app/Default@2x.png test/Default@2x.png53057f89c402b741^0e2fe889c402b741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/Default@2x.png0000000000000000^779"CopyPNGFile "build/Release-iphoneos/test.app/Default@2x.png" "test/Default@2x.png"    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/djchung/Dropbox/BlueKey_LLC/test/test/Default@2x.png" "/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Default@2x.png"36"C8F0A404-EA2E-4ABB-B30C-26985E6B0E96-
+
+CCopyStringsFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings
+s386057353.309644
+e386057353.493995
+r1
+xCopyStringsFile
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/en.lproj/InfoPlist.strings
+xtest/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy test/en.lproj/InfoPlist.strings9b744f89c402b741^99b77e89c402b741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/en.lproj/InfoPlist.strings0000000000000000^744"CopyStringsFile build/Release-iphoneos/test.app/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/en.lproj -- test/en.lproj/InfoPlist.strings36"3F262E79-210E-4B27-8C1C-A064D318413E-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/test.app/ResourceRules.plist
+s386057335.651339
+e386057335.656873
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/test.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Release-iphoneos/test.app/ResourceRules.plist36e5a677c402b741^d733a877c402b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/ResourceRules.plist000000000080d041^1048"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Release-iphoneos/test.app/ResourceRules.plist    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app36"B3CC0337-3868-4329-8D9E-040497F0FDD2-
+
+CCreateUniversalBinary /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test normal "armv7 armv7s"
+s386057352.837779
+e386057353.070469
+r1
+xCreateUniversalBinary
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Create universal binary /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test20eddf88c402b741^091b1289c402b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test000000000080d041^837"CreateUniversalBinary build/Release-iphoneos/test.app/test normal "armv7 armv7s"    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    lipo -create /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test -output /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test36"22D7EC90-3257-4A35-B688-E8E6868521D1-
+
+CGenerateDSYMFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app.dSYM /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test
+s386057353.078030
+e386057353.301718
+r1
+xGenerateDSYMFile
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app.dSYM
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Generate /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app.dSYM145c1489c402b741^74414d89c402b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app.dSYM000000000080d041^779"GenerateDSYMFile build/Release-iphoneos/test.app.dSYM build/Release-iphoneos/test.app/test    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app.dSYM36"12CC573A-882D-4F3E-98D2-BF540A2C99E2-
+
+CLd /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test normal armv7
+s386057346.283559
+e386057349.087390
+r1
+xLd
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/testadf64882c402b741^ce6d1685c402b741^---0#0#0#--1292"Ld build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test normal armv7    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -F/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -filelist /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7/test36"62698BDC-33C0-413C-993C-029246325925-
+
+CLd /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test normal armv7s
+s386057351.902544
+e386057352.830761
+r1
+xLd
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Link /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/testa92fe787c402b741^9badd488c402b741^---0#0#0#--1297"Ld build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test normal armv7s    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -F/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -filelist /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/Objects-normal/armv7s/test36"6547966E-BA78-447A-A393-3160C52070C8-
+
+CProcessInfoPlistFile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Info.plist test/test-Info.plist
+s386057335.652152
+e386057336.314734
+r1
+xProcessInfoPlistFile
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Info.plist
+xtest/test-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process test/test-Info.plistfd10a777c402b741^8e955078c402b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/test-Info.plist0000000000000000^910"ProcessInfoPlistFile build/Release-iphoneos/test.app/Info.plist test/test-Info.plist    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-infoPlistUtility test/test-Info.plist -genpkginfo /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/ResourceRules.plist -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/Info.plist36"AB59366F-C762-4C5C-927B-3BF46DB72C7A-
+
+CProcessPCH /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-enxiqujknjgvdxcwpukfejqtikli/test-Prefix.pch.pth test/test-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386057336.323508
+e386057345.022587
+r1
+xProcessPCH
+x/var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-enxiqujknjgvdxcwpukfejqtikli/test-Prefix.pch.pth
+xtest/test-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile test/test-Prefix.pch36045378c402b741^1cf00581c402b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/test-Prefix.pch0000000000000000^3475"ProcessPCH /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-enxiqujknjgvdxcwpukfejqtikli/test-Prefix.pch.pth test/test-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7s -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-enxiqujknjgvdxcwpukfejqtikli/test-Prefix.pch.dia -c /Users/djchung/Dropbox/BlueKey_LLC/test/test/test-Prefix.pch -o /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-enxiqujknjgvdxcwpukfejqtikli/test-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-enxiqujknjgvdxcwpukfejqtikli/test-Prefix.pch.d36"4B893681-7872-442E-A5BD-6A1996F66CD4-
+
+CProcessPCH /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-fpcmwqqkexztogfkeglltdhjjila/test-Prefix.pch.pth test/test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386057336.322939
+e386057345.022049
+r1
+xProcessPCH
+x/var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-fpcmwqqkexztogfkeglltdhjjila/test-Prefix.pch.pth
+xtest/test-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile test/test-Prefix.pchcced5278c402b741^9fab0581c402b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/test/test-Prefix.pch0000000000000000^3472"ProcessPCH /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-fpcmwqqkexztogfkeglltdhjjila/test-Prefix.pch.pth test/test-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-generated-files.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-own-target-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-all-target-headers.hmap -iquote /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test-project-headers.hmap -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources/armv7 -I/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/DerivedSources -F/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-fpcmwqqkexztogfkeglltdhjjila/test-Prefix.pch.dia -c /Users/djchung/Dropbox/BlueKey_LLC/test/test/test-Prefix.pch -o /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-fpcmwqqkexztogfkeglltdhjjila/test-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lp/jg9ldgx56bx0b9vckhhn3nm40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/test-Prefix-fpcmwqqkexztogfkeglltdhjjila/test-Prefix.pch.d36"1B5BDB8F-62BD-4611-B869-0986033EE26B-
+
+CProcessProductPackaging "/Users/djchung/Library/MobileDevice/Provisioning Profiles/4371239E-7FDF-4C17-97B7-7E1E2E2501E7.mobileprovision" /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/embedded.mobileprovision
+s386057364.434393
+e386057364.586061
+r1
+xProcessProductPackaging
+x/Users/djchung/Library/MobileDevice/Provisioning Profiles/4371239E-7FDF-4C17-97B7-7E1E2E2501E7.mobileprovision
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"ProcessProductPackaging "/Users/djchung/Library/MobileDevice/Provisioning Profiles/4371239E-7FDF-4C17-97B7-7E1E2E2501E7.mobileprovision" build/Release-iphoneos/test.app/embedded.mobileprovisionef556f94c402b741^a2269694c402b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/embedded.mobileprovision0000000000000000^874"ProcessProductPackaging "/Users/djchung/Library/MobileDevice/Provisioning Profiles/4371239E-7FDF-4C17-97B7-7E1E2E2501E7.mobileprovision" build/Release-iphoneos/test.app/embedded.mobileprovision    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-productPackagingUtility "/Users/djchung/Library/MobileDevice/Provisioning Profiles/4371239E-7FDF-4C17-97B7-7E1E2E2501E7.mobileprovision" -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/embedded.mobileprovision36"2B564AB7-0C96-43D3-855E-D4427E4D1D08-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test.xcent
+s386057364.777793
+e386057364.781822
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection200"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/test.build/Release-iphoneos/test.build/test.xcented46c794c402b741^d234c894c402b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test.xcent000000000080d041^914"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/test.build/Release-iphoneos/test.build/test.xcent    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/djchung/Dropbox/BlueKey_LLC/test/build/test.build/Release-iphoneos/test.build/test.xcent36"DC9EF4CD-B844-45D1-ABEB-0FC228E32872-
+
+CTouch /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app
+s386057364.594189
+e386057364.768709
+r1
+xTouch
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Touch /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app7a399894c402b741^3fe5c494c402b741^---0#0#0#--563"Touch build/Release-iphoneos/test.app    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/touch -c /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app36"FE1F6F43-A910-48BB-B77E-BAD481800732-
+
+CValidate /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app
+s386057367.197229
+e386057372.544774
+r1
+xValidate
+x/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+owarning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)
+oExecutable=/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/test
+ocodesign_wrapper-4.1: using Apple CA for profile evaluation
+o/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app: valid on disk
+o/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app: satisfies its Designated Requirement
+otest-requirement: code failed to satisfy specified code requirement(s)
+ocodesign_wrapper-4.1: failed to execute codesign(1)
+o - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Validate build/Release-iphoneos/test.appaa9c3297c402b741^76888b9cc402b741^-908"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)warning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)Executable=/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/testcodesign_wrapper-4.1: using Apple CA for profile evaluation/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app: valid on disk/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app: satisfies its Designated Requirementtest-requirement: code failed to satisfy specified code requirement(s)codesign_wrapper-4.1: failed to execute codesign(1) - (null2(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57386057372#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--2@175" Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)165"Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate.386057372#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#0#-19%DVTDocumentLocation4@88"file://localhost/Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app/0000000000000000^707"Validate build/Release-iphoneos/test.app    cd /Users/djchung/Dropbox/BlueKey_LLC/test    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/djchung/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/djchung/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/djchung/Dropbox/BlueKey_LLC/test/build/Release-iphoneos/test.app36"7D9DDFF3-71D6-4BBF-9F9A-DE84E6A313DA-
+
