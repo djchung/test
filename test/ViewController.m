@@ -28,6 +28,6 @@
 
 - (NSString *)helloWorld
 {
-    return @"helloWorld";
+    return @"Hello World";
 }
 @end
